@@ -1,0 +1,398 @@
+    1  mkdir /CIT173_Lab5
+    2  mkdir CIT173_Lab5
+    3  ls
+    4  man mount
+    5  mount
+    6  q
+    7  exit
+    8  dev
+    9  /dev
+   10  cd /dev
+   11  ls
+   12  cd 
+   13  cd /dev/sdb
+   14  man gdisk
+   15  sudo gdisk l
+   16  cd/dev
+   17  cd /dev
+   18  dir
+   19  cd
+   20  ls /dev/sd*
+   21  man gdisk
+   22  sudo gdisk /dev/sdb
+   23  sudo mkfs.ext4 /dev/sdb1
+   24  sudo mkfs.ext4 /dev/sdb2
+   25  sudo mkdir /mnt/data
+   26  sudo mkdir /mnt/backup
+   27  mount
+   28  sudo mount /dev/sdb1 /mnt/data
+   29  sudo mount /dev/sdb2 /mnt/backup
+   30  ls
+   31  df
+   32  sudo unmount /dev/sdb1 /dev/sdb2
+   33  sudo umount /dev/sdb1 /dev/sdb2
+   34  nano
+   35  vim
+   36  viviq
+   37  vi /etc/fstab
+   38  ls
+   39  vi /etc/fstab
+   40  ls
+   41  cd /dev
+   42  ls
+   43  cd
+   44  nano /etc/fstab
+   45  sudo nano /etc/fstab
+   46  sudo
+   47  sudo -u
+   48  ls
+   49  sudo nano /etc/fstab
+   50  reboot
+   51  cat /etc/fstab
+   52  mount > /CIT173_Lab5/my-mounts.txt
+   53  mount > ~/CIT173_Lab5/my-mounts.txt
+   54  cp /etc/fstab ~/CIT173_Lab5/my-fstab.txt
+   55  ls ~/CIT173_Lab5/
+   56  history
+   57  history > ~/CIT173_Lab5/my-command-history.txt
+   58  cd ~/CIT173_Lab5
+   59  ls
+   60  git init
+   61  git remote add origin https://github.com/fredcsa/CIT173_Lab5.git
+   62  git add --all
+   63  git commit -m 
+   64  git commit "Lab assignment 5"
+   65  git push origin master
+   66  sudo dd if/dev/random of= /mnt/dat/data_file.dat bs=1 count1k
+   67  sudo dd if=/dev/random of= /mnt/dat/data_file.dat bs=1 count1k
+   68  sudo dd if=/dev/random of=/mnt/dat/data_file.dat bs=1 count1k
+   69  sudo dd if=/dev/random of=/mnt/dat/data_file.dat bs=1 count=1k
+   70  sudo dd if=/dev/random of=/mnt/dat/data_file1.dat bs=1 count=1k
+   71  sudo dd if=/dev/random of=/mnt/data/data_file1.dat bs=1 count=1k
+   72  sudo dd if=/dev/random of=/mnt/data/data_file2.dat bs=1 count=1k
+   73  sudo dd if=/dev/random of=/mnt/backup/backup_file2.dat bs=1 count=1k
+   74  sudo dd if=/dev/random of=/mnt/backup/backup_file1.dat bs=1 count=1k
+   75  cp /mnt/data/datafile* ~/CIT173_Lab5/
+   76  cp /mnt/data/datafile* ~/CIT173_Lab5
+   77  cp mnt/data/datafile* ~/CIT173_Lab5
+   78  cp /mnt/data/datafile* ~/CIT173_Lab5
+   79  cat /etc/fstab
+   80  history
+   81  history > ~/CIT173_Lab5/my-command-history.txts
+   82  sudo nano /etc/fstab
+   83  cp /mnt/data/datafile* ~/CIT173_Lab5
+   84  cat /etc/fstab
+   85  sudo /etc/fstab
+   86  sudo nano /etc/fstab
+   87  cat /etc/fstab
+   88  cp /mnt/data/datafile* ~/CIT173_Lab5
+   89  cp /mnt/data/datafile ~/CIT173_Lab5
+   90  cp /mnt/data/datafile1.dat ~/CIT173_Lab5
+   91  cp /mnt/data/datafile* ~/CIT173_Lab5
+   92  ls -all
+   93  dir
+   94  cp /mnt/data/datafile* ~/CIT173_Lab5
+   95  cp /mnt/data/datafile* ~/CIT173_Lab5/cd
+   96  cp /mnt/data/data_file* ~/CIT173_Lab5/cd
+   97  cp /mnt/data/data_file* ~/CIT173_Lab5
+   98  cp /mnt/data/backup_file* ~/CIT173_Lab5
+   99  cp /mnt/backup/backup_file* ~/CIT173_Lab5
+  100  cat /etc/dev
+  101  cat /etc/fstab
+  102  ls -all
+  103  cp /mnt/data/datafile* ~/CIT173_Lab5
+  104  dir
+  105  df ~/CIT173_Lab5/my-disk-usage.txt
+  106  df
+  107  df > ~/CIT173_Lab5/my-disk-usage.txt
+  108  ls -all
+  109  ls ~/CIT173_Lab5/
+  110  sudo dd if=/def/random of=mnt/data/data_file1.dat bs=1 ount=1k
+  111  sudo dd if=/def/random of=mnt/data/data_file.dat bs=1 count=1k
+  112  cat /etc/fstab
+  113  cat /etc/dev
+  114  ls -all
+  115  dir
+  116  ls ~/CIT173_Lab5/
+  117  nano my-command history.txts
+  118  nano my-commad-history.txts
+  119  nano my-commad-history.txt
+  120  my-command-history.txt
+  121  cd ~/CIT
+  122  cd ~/CIT173_Lab5/
+  123  ls
+  124  cp /mnt/data/datafile* ~/CIT173_Lab5
+  125  history
+  126  cd
+  127  ls -al ~
+  128  history
+  129  man chmod
+  130  man prob
+  131  man proc
+  132  man procfs
+  133  cd /proc
+  134  ls
+  135  procfs version
+  136  exit
+  137  cat /proc/cpuinfo
+  138  ls /proc
+  139  cat /version
+  140  cd /proc
+  141  cat /version
+  142  cat version
+  143  cat cpuinfo
+  144  ls
+  145  cat filesystems
+  146  cat version > ~/CIT173_Lab5/my-version.txt
+  147  ls
+  148  cat meminfo
+  149  ls
+  150  cat stat
+  151  cat devices
+  152  cat 2124/mem
+  153  ls
+  154  cat vmstat
+  155  ls
+  156  cat version
+  157  cat version > ~/CIT173_Lab5/version.txt
+  158  cat meminfo
+  159  cat meminfo > ~/CIT173_Lab5/memory_info.txt
+  160  ls
+  161  cat cpuinfo > ~/CIT173_Lab5/cpu.txt
+  162  cat loadavg > ~/CIT173_Lab5/myprocfs.txt
+  163  cat net
+  164  cat modules
+  165  ls
+  166  cat stat
+  167  ls
+  168  cat uptime
+  169  cat timer_list
+  170  cat self
+  171  ps
+  172  cat filesystems
+  173  ls
+  174  cat mis
+  175  cat misc
+  176  ls
+  177  cat vmstat
+  178  ls
+  179  cat stat
+  180  cat zoneinfo
+  181  ls
+  182  cat modules
+  183  cat locks
+  184  ls
+  185  ps aux
+  186  cat 1541
+  187  ls 1541
+  188  cat 1541 > ~/CIT173_Lab5/1541.txt
+  189  ls 1541 > ~/CIT173_Lab5/1541.txt
+  190  ls
+  191  cd ~/CIT173_Lab5/
+  192  ls
+  193  cd
+  194  man sysfs
+  195  cd /class
+  196  ls
+  197  ma syssfs
+  198  man sysfs
+  199  cd /sys/class/leds
+  200  ls -all
+  201  cd
+  202  cd /proc
+  203  ls
+  204  cat fb 
+  205  cd
+  206  man setleds
+  207  man sysfs
+  208  sysfs
+  209  init sysfs
+  210  sys
+  211  cd /sys
+  212  ls
+  213  ls devices
+  214  ls class
+  215  cd /class
+  216  cd /class/leds
+  217  ls leds
+  218  cat /class/leds
+  219  cd /class
+  220  cd /sys/class/leds
+  221  ls
+  222  sysfs input1::capslock
+  223  input1::capslock
+  224  set leds
+  225  cd
+  226  cd proc
+  227  cd /proc
+  228  cat 2124
+  229  2124
+  230  ls 2124
+  231  cd /2124/limits
+  232  cat 2124/limits
+  233  ps
+  234  cat 2550 /limits
+  235  ls 2550
+  236  cat 2550 /limits
+  237  cat 2550/limits > ~/CIT173_Lab5/my-proc.txt
+  238  ls
+  239  cd/
+  240  cd
+  241  man setleds
+  242  setleds -L +caps
+  243  man setleds
+  244  setleds +caps
+  245  cd
+  246  sysfs
+  247  ls sysfs
+  248  cd /sys/class/leds
+  249  sudo -i
+  250  cd
+  251  sudo echo "1" > /sys/class/leds/input1\:\:capslock/brightness
+  252  sudo echo "0" > /sys/class/leds/input1\:\:capslock/brightness
+  253  sudo -i
+  254  sudo nano turn-on-capslock-led.txt
+  255  sudo -i
+  256  ls
+  257  cd ~/CIT173_Lab5/
+  258  ls
+  259  sudo nano turn-on-capslock-let.txt
+  260  sudo nano turn-on-capslock-led.txt
+  261  cd
+  262  history > ~/CIT173_Lab5/Lab5-week2-commands.txt
+  263  cd ~/CIT173_Lab5/
+  264  git
+  265  git init
+  266  git remote add origin https://github.com/fredcsa/CIT173_Lab5.git
+  267  gid add --all
+  268  git add --all
+  269  git commit -m "Lab assignment 5"
+  270  git push origin master
+  271  cd
+  272  mkdir CIT173_Lab6
+  273  ls
+  274  sudo groupadd actors
+  275  sudo groupadd directors
+  276  sudo groupadd producers
+  277  ls
+  278  sudo useradd -m mhamill
+  279  sudo useradd -m hford
+  280  sudo useradd -m cfisher
+  281  sudo useradd -m glucas
+  282  sudo useradd -m gkurtz
+  283  sudo passwd mahmill
+  284  sudo passwd mhamill
+  285  sudo usermod -c "Mark Hamill" mhamill
+  286  sudo usermod -a -G actors mhamill
+  287  sudo passwd hford 
+  288  sudo usrmod -c "Harrison Ford" hford
+  289  sudo usermod -c "Harrison Ford" hford
+  290  sudo usermod -a -G actors hford
+  291  sudo passwd cfisher
+  292  sudo usermod -a -G actors cfisher
+  293  sudo usermod -c "Carrie Fisher" cfisher
+  294  sudo passwd glucas
+  295  sudo passwd gkurtz
+  296  sudo usermod -c "George Lucas" glucas
+  297  sudo usermod -a -G actors glucas
+  298  sudo usermod -c "George Kurtz" gkurtz
+  299  sudo usermod -a -G actors gkurtz
+  300  sudo usermod -a -G producers gkurtz
+  301  sudo usermod -a -G directors glucas
+  302  cp /etc/passwd/ ~CIT173_Lab6
+  303  cp /etc/passwd/ ~CIT173_Lab6/
+  304  cp /etc/passwd/ ~/CIT173_Lab6/
+  305  cd etc
+  306  cp /etc/passwd/ ~/CIT173_Lab6/
+  307  cd etc
+  308  cd /etc
+  309  ls-all
+  310  ls
+  311  cd
+  312  cp /etc/passwd-
+  313  cp /etc/passwd/ ~/CIT173_Lab6/
+  314  cp /etc/passwd ~/CIT173_Lab6/
+  315  cp /etc/group ~/CIT173_Lab/
+  316  cp /etc/group ~/CIT173_Lab6/
+  317  history > ~/CIT173_Lab6/ex1-command-history.txt
+  318  wget https://github.com/RenoTechnologyAcademy/CIT173_Lab6_Giles/archive/master.tar.gz
+  319  wget https://github.com/RenoTechnologyAcademy/CIT173_Lab6_Files/archive/master.tar.gz
+  320  sudo usermod -a -G producers glucas
+  321  ls -al ~/CIT173_Lab6/
+  322  cd /var
+  323  mkdir StarWars
+  324  sudo mkdir StarWars
+  325  cd /var/StarWars
+  326  mkdir finance,directing,creative
+  327  sudo mkdir finance,directing,creative
+  328  ls
+  329  sudo mkdir finance
+  330  sudo mkdir directing
+  331  sudo mkdir creative
+  332  cd
+  333  ls
+  334  tar -xvzf master.tar.gz
+  335  ls
+  336  cd /CIT173_Lab6_Files-master
+  337  cd ~/CIT173_Lab6Files-master
+  338  cd ~/CIT173_Lab6_Files-master
+  339  ls
+  340  cd
+  341  ls -al /var/StarWars
+  342  sudo chmod 777 /var/StarWars/
+  343  sudo mkdir /var/StarWars/test, test1, test2
+  344  cd /var/StarWars/
+  345  ls
+  346  cd
+  347  cd ~/CIT173_Lab6_Files-master
+  348  cd
+  349  cd ~/CIT173_Lab6_Files-master
+  350  ls
+  351  ls -al
+  352  cd
+  353  mv CIT173_Lab6_Files-master/star-wars-budget.txt to /var/StarWars/finance/star-wars-budget.txt
+  354  mv /CIT173_Lab6_Files-master/star-wars-budget.txt to /var/StarWars/finance/star-wars-budget.txt
+  355  cd/var/StarWars
+  356  cd /var/StarWars
+  357  ls
+  358  cd
+  359  sudo mv CIT173_Lab6_Files-master/star-wars-budget.txt to /var/StarWars/finance/star-wars-budget.txt
+  360  mv CIT173_Lab6_Files-master/star-wars-budget.txt to /var/StarWars/finance/star-wars-budget.txt
+  361  cd /Var/Starwars
+  362  cd /var/StarWars
+  363  ls
+  364  ls -al
+  365  mv CIT173_Lab6_Files-master/star-wars-budget.txt to /var/StarWars/finance/star-wars-budget.txt
+  366  mv CIT173_Lab6_Files-master/star-wars-budget.txt to /var/StarWars/finance star-wars-budget.txt
+  367  mv CIT173_Lab6_Files-master/star-wars-budget.txt to /var/StarWars/finance star-wars-budget.txtcd
+  368  cd
+  369  sudo chmod 777 /var/StarWars/creative
+  370  sudo chmod 777 /var/StarWars/finance
+  371  sudo chmod 777 /var/StarWars/directing
+  372  mv CIT173_Lab6_Files-master/star-wars-budget.txt to /var/StarWars/finance star-wars-budget.txt
+  373  mv CIT173_Lab6_Files-master/star-wars-budget.txt to /var/StarWars/finance/star-wars-budget.txt
+  374  cd /var/StarWars
+  375  ls -all
+  376  cd
+  377  mv CIT173_Lab6_Files-master/star-wars-budget.txt  /var/StarWars/finance star-wars-budget.txt
+  378  mv CIT173_Lab6_Files-master/star-wars-budget.txt /var/StarWars/finance star-wars-budget.txt
+  379  mv CIT173_Lab6_Files-master/star-wars-budget.txt /var/StarWars/finance
+  380  mv CIT173_Lab6_Files-master/star-wars-journal.txt /var/StarWars/directing
+  381  mv CIT173_Lab6_Files-master/star-wars-script.txt /var/StarWars/creative
+  382  sudo chown -R gkurtz:producers finance/
+  383  sudo chown -R gkurtz:producers /var/StarWars/finance
+  384  ls
+  385  cd /var/StarWars
+  386  ls
+  387  ls -all
+  388  sudo chmod -750 finance
+  389  ls -all
+  390  sudo chmod -777 finance
+  391  ls -all
+  392  sudo chmod 750 finance
+  393  ls -all
+  394  cd
+  395  cd /var/StarWars
+  396  cd /var/StarWarscd
+  397  cd
+  398  history > ~/CIT173_Lab6/ex2-command-history.txt
